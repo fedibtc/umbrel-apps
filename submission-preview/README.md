@@ -28,6 +28,28 @@ Testing used a disposable identity and an untrusted test credential, with seat
 offers disabled. No production guardian seats were created. Telemetry
 registration logged a warning with that test credential.
 
+## Reviewer testing
+
+To complete setup and inspect the dashboard, authorize your own test instance:
+
+1. In [PeerBadge](https://app.peerbadge.org), use **Sign a PeerBadge** and **Get a PeerBadge** to issue
+   yourself a badge. Use two browser profiles or devices for the signer and
+   holder, and follow the QR exchange between them.
+2. In the holder's **Settings**, tap the **Build** label at the bottom seven
+   times, then enable **Skip authorization cooldown**.
+3. Open the badge under **My badges**, choose **Authorize application**, and
+   scan or paste the authorization request from the guardian setup screen.
+   Back in the guardian, select **Check now** and finish setup. Leave the seat
+   price blank for dashboard testing.
+
+A self-issued badge enables this dashboard test but does not make the instance
+eligible for production selection.
+
+Actual federation formation participation requires a number of guardian software
+instances to be live and advertised, and a compatible client choosing from among
+them to make a federation. The [Guardian guide](https://manifold.fedi.xyz/guardian-guide)
+describes this flow and includes a full video walkthrough.
+
 ## Notes
 
 Requires Bitcoin Node on mainnet and guardian authorization to offer seats.
