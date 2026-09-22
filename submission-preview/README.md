@@ -1,6 +1,6 @@
 # Add Manifold Fedimint Guardian
 
-[Package changes](https://github.com/fedibtc/umbrel-apps/compare/master...add-manifold-fedimint-guardian) · [App files](../manifold-fedimint-guardian/)
+[Submitted PR #6110](https://github.com/getumbrel/umbrel-apps/pull/6110) · [Package changes](https://github.com/fedibtc/umbrel-apps/compare/master...add-manifold-fedimint-guardian) · [App files](../manifold-fedimint-guardian/)
 
 ## Type
 
@@ -11,6 +11,7 @@ New app
 - App ID: `manifold-fedimint-guardian`
 - Upstream project: https://github.com/fedibtc/manifold
 - Version: `0d31e0b7`
+- Image: `ghcr.io/fedibtc/manifold-fman:0d31e0b738ed91b628194458a99c306356e60327@sha256:415dc8fd17df110ad5c30eb2116dd7fbefbbb2c8f1736cea1773449bc9c843d7`
 
 ## Summary
 
